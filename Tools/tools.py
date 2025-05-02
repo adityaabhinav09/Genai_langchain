@@ -9,4 +9,4 @@ model = ChatGoogleGenerativeAI(model='gemini-1.5-pro',api_key=key)
 
 result = model.invoke("what is your name?")
 
-print(result.content) 
+print(result.content)
